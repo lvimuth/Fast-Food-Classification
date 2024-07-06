@@ -152,3 +152,32 @@ x==========x]
 [2024-07-06 16:12:13,817: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
 [2024-07-06 16:12:13,819: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
 [2024-07-06 16:12:13,821: INFO: common: created directory at: artifacts\training]
+[2024-07-06 17:39:46,247: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-06 17:39:46,249: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-06 17:39:46,251: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-06 17:39:46,252: INFO: common: created directory at: artifacts]
+[2024-07-06 17:39:46,252: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-06 17:39:46,621: INFO: data_ingestion: File copied to artifacts/data_ingestion/data.zip from dataset.zip]
+[2024-07-06 17:40:23,207: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-07-06 17:40:23,208: INFO: main: *******************]
+[2024-07-06 17:40:23,208: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-07-06 17:40:23,211: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-06 17:40:23,213: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-06 17:40:23,213: INFO: common: created directory at: artifacts]
+[2024-07-06 17:40:23,214: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-06 17:40:24,202: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-07-06 17:40:24,203: INFO: main: *******************]
+[2024-07-06 17:40:24,203: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-06 17:40:24,206: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-06 17:40:24,208: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-06 17:40:24,208: INFO: common: created directory at: artifacts]
+[2024-07-06 17:40:24,209: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-07-06 17:40:24,209: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-07-06 17:40:24,210: INFO: common: created directory at: artifacts\training]
+[2024-07-06 18:18:18,578: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
