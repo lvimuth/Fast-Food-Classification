@@ -9,6 +9,9 @@ from cnnClassifier.entity.config_entity import DataIngestionConfig
 import shutil
 from pathlib import Path
 
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+
+
 STAGE_NAME = "Data Ingestion stage"
 
 class DataIngestionTrainingPipeline:

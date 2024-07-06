@@ -78,7 +78,9 @@ class ConfigurationManager:
         training = self.config.training
         prepare_base_model = self.config.prepare_base_model
         params = self.params
-        training_data = os.path.join(self.config.data_ingestion.unzip_dir, "Chicken-fecal-images")
+        training_data = os.path.join(self.config.data_ingestion.unzip_dir, "Fast Food Classification V2/Train")
+        validation_data = os.path.join(self.config.data_ingestion.unzip_dir, "Fast Food Classification V2/Valid")
+        test_data = os.path.join(self.config.data_ingestion.unzip_dir, "Fast Food Classification V2/Test")
         create_directories([
             Path(training.root_dir)
         ])
@@ -88,6 +90,8 @@ class ConfigurationManager:
             trained_model_path=Path(training.trained_model_path),
             updated_base_model_path=Path(prepare_base_model.updated_base_model_path),
             training_data=Path(training_data),
+            validation_data =Path(validation_data),
+            test_data=Path(test_data),
             params_epochs=params.EPOCHS,
             params_batch_size=params.BATCH_SIZE,
             params_is_augmentation=params.AUGMENTATION,
@@ -101,8 +105,8 @@ class ConfigurationManager:
 
     def get_validation_config(self) -> EvaluationConfig:
         eval_config = EvaluationConfig(
-            path_of_model=Path("artifacts/training/model.h5"),
-            training_data=Path("artifacts/data_ingestion/Chicken-fecal-images"),
+            path_of_model=Path("artifacts/training/model.keras"),
+            training_data=Path("artifacts/data_ingestion/Fast Food Classification V2"),
             all_params=self.params,
             params_image_size=self.params.IMAGE_SIZE,
             params_batch_size=self.params.BATCH_SIZE
