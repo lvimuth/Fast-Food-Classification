@@ -263,3 +263,31 @@ x==========x]
 [2024-07-07 23:13:06,405: INFO: common: created directory at: artifacts]
 [2024-07-07 23:13:06,407: INFO: common: created directory at: artifacts/data_ingestion]
 [2024-07-07 23:13:08,159: INFO: 3607212118: File copied to artifacts/data_ingestion/data.zip from dataset.zip]
+[2024-07-07 23:26:00,627: INFO: stage_02_prepare_base_model: *******************]
+[2024-07-07 23:26:00,627: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-07-07 23:26:00,630: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-07 23:26:00,632: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-07 23:26:00,632: INFO: common: created directory at: artifacts]
+[2024-07-07 23:26:00,633: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-07 23:26:01,614: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-07-07 23:26:29,359: INFO: stage_03_training: *******************]
+[2024-07-07 23:26:29,359: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-07-07 23:26:29,362: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-07 23:26:29,364: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-07 23:26:29,365: INFO: common: created directory at: artifacts]
+[2024-07-07 23:26:29,366: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-07-07 23:26:29,367: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-07-07 23:26:29,368: INFO: common: created directory at: artifacts\training]
+[2024-07-07 23:54:12,266: INFO: stage_03_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-07 23:54:57,246: INFO: stage_04_evaluation: *******************]
+[2024-07-07 23:54:57,246: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-07 23:54:57,249: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-07 23:54:57,251: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-07 23:54:57,251: INFO: common: created directory at: artifacts]
+[2024-07-08 00:00:14,681: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
