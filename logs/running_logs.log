@@ -239,3 +239,17 @@ x==========x]
 [2024-07-06 23:34:48,290: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-07-07 22:52:14,286: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-07 22:52:14,303: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-07 22:52:14,313: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-07 22:52:14,315: INFO: common: created directory at: artifacts]
+[2024-07-07 22:52:14,320: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-07 22:52:14,323: INFO: data_ingestion: File already exists of size: ~ 840563 KB]
+[2024-07-07 22:53:11,842: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-07-07 23:07:52,617: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-07 23:07:52,620: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-07 23:07:52,621: INFO: common: created directory at: artifacts]
+[2024-07-07 23:07:52,623: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-07 23:07:52,624: INFO: 981081322: File already exists of size: ~ 840563 KB]
